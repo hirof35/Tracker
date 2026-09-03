@@ -7,5 +7,5 @@
 依存関係（TypeScript等）をインストールします。Bashnpm install
 実行方法推奨: tsx による直接実行Node.js環境でTypeScriptを直接実行するために tsx を使用します。Bashnpx tsx tracker.ts
 代替: Node.js (v22以降) のネイティブ実行Bashnode --experimental-strip-types tracker.ts
-コンソール画面の記号について記号意味TTarget: 逃避行動をとるターゲットAAgent: ターゲットを追跡するエージェントXCaught: エージェントがターゲットを捉えた位置.空白のグリッド領域クラス構造Target: ターゲットの位置保持およびランダム移動ロジックTracker: ターゲット座標を受け取り、指定された速度で位置を更新する追跡ロジックConsoleRenderer: コンソール画面のクリアとグリッド・ステータス情報の描画runSimulation(): メインループの制御および衝突検出判定<img width="727" height="507" alt="スクリーンショット 2026-09-03 124928" src="https://github.com/user-attachments/assets/69f43dbb-90e1-4a97-b2fb-db2eb6dbada1" />
+コンソール画面の記号について記号意味TTarget: 逃避行動をとるターゲットAAgent: ターゲットを追跡するエージェントXCaught: エージェントがターゲットを捉えた位置.空白のグリッド領域クラス構造Target: ターゲットの位置保持およびランダム移動ロジックTracker: ターゲット座標を受け取り、指定された速度で位置を更新する追跡ロジックConsoleRenderer: コンソール画面のクリアとグリッド・ステータス情報の描画runSimulation(): メインループの制御および衝突検出判定
 <img width="727" height="507" alt="スクリーンショット 2026-09-03 124928" src="https://github.com/user-attachments/assets/bc16523f-c03d-488b-8463-f25f5f917815" />
